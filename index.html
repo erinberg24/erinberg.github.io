@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Erin Berg</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#aboutme" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+    <a href="#resume" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
+    <a href="#links" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Links</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue-grey w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Welcome.</h1>
+  <h2 class="w3-margin">My name is Erin Berg</h2>
+  <p class="w3-xlarge">I'm a computer science student based in Boston aspiring to work as a software engineer.</p>
+  <a href="mailto:bergec@bc.edu"><button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get in touch!</button></a>
+</header>
+
+<!-- First Grid -->
+<div id="aboutme" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About Me</h1>
+      <h5 class="w3-padding-16">Hey there! I’m a junior at <strong>Boston College</strong> working towards a BS in Computer Science with a concentration in Bioinformatics. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!</h5>
+      <h5>Here are a few things I'm experienced with:</h5>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C</li>
+        <li>MATLAB</li>
+        <li>Microsoft Office</li>
+      </ul>
+      <h5 class="w3-padding-16">When I’m not studying, I enjoy cooking, running, podcasts, traveling, backpacking, and skiing. I’m aspiring to work as software engineer in the biotech field. I like the idea of using computers to benefit people’s health.</h5>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img class="resize" src="./resources/images/IMG_0121.jpg">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div id="resume" class="w3-row">
+  <div class="w3-half w3-light-grey w3-container" style="height: 950px">
+    <div class="w3-padding-64 w3-left">
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Boston College</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Computer Science BS, Concentration in Bioinformatics</h6>
+          <p class="w3-text-grey">Relevant Coursework:</p>
+          <ul class="w3-text-grey">
+            <li>Algorithms</li>
+            <li>Data Mining</li>
+            <li>Data Structures</li>
+            <li>Computer Systems</li>
+            <li>Computer Organization</li>
+            <li>Logic and Computation</li>
+            <li>Randomness and Computation</li>
+            <li>Probability</li>
+            <li>Linear Algebra</li>
+            <li>Multivariable Calculus</li>
+            <li>Investigations in Molecular Biology</li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Hong Kong</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Study Abroad</h6>
+          <p class="w3-text-grey">Spending a semester studying 	computer engineering as well as Chinese art, history, and culture</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Codeacademy</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>How to Build Websites From Scratch</h6>
+          <p class="w3-text-grey">Completed Coursework and Projects</p><br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div class="w3-half w3-light-grey w3-container" style="height:950px">
+        <div class="w3-padding-64 w3-left">
+          <div class="w3-container w3-card w3-white" style="width: max-width">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-laptop w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Boston College Computer Science Department</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Teaching Assistant</h6>
+              <p class="w3-text-grey">Taught a discussion section to 25 students weekly.</p>
+              <p class="w3-text-grey">Tutored students in Computer Science I</p>
+              <p class="w3-text-grey">Graded problem sets</p>
+              <br>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Boston College Auxiliary Services</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Accounting Analyst</h6>
+              <p class="w3-text-grey">Supervised other student employees and made the weekly schedule.</p>
+              <p class="w3-text-grey">Entered BC Dining's weekly inventory, ran Macros, and analyzed the data using Excel</p>
+              <p class="w3-text-grey">Input and paid invoices using Access and PeopleSoft financials</p>
+              <br>
+              <br>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Boujee on a Budget</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Web Developer</h6>
+              <p class="w3-text-grey">Created a website for company that makes cooking easier for college students. </p><br>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="projects" class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Projects</h1>
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-white w3-container" style="min-height:460px">
+  <h3>Interactive Computer Game</h3><br><br>
+  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Java & GUIS</p>
+  <p>Game teaches users about Linked Lists</p>
+  <p>Users must correctly add values to a linked list in order to level up</p>
+  <p>Studied game theory and what appeals to users</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-white w3-container" style="min-height:460px">
+  <h3>Personal Website</h3><br><br>
+  <i class="fa fa-address-book w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>HTML & CSS</p>
+  <p>A website </p>
+  <p></p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-white w3-container" style="min-height:460px">
+  <h3>ELP Mobile App</h3>
+  <i class="fa fa-mobile w3-margin-bottom w3-text-theme" style="font-size:200px"></i>
+  <p>Created for Boston College Emerging Leader Program</p>
+  <p>Kept Members Up to Date on Club Activities & Calendar</p>
+  <p>Added to Apple App Store for Download</p>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer id="links" class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <a href="mailto:bergec@bc.edu"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+    <a href="https://github.com/erinberg24"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/erin-berg"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ </div>
+ <p class="w3-text-blue-grey">Built by Erin Berg<p>
+</footer>
