@@ -1,0 +1,129 @@
+{
+    "about":{
+        "name":"Erin Berg",
+        "title":"Software Engineer",
+        "photo": "assets/profile.png",
+        "email": "bergec at bc.edu",
+        "address": "Chestnut Hill, MA, 02467",
+        "resume": "assets/resume.pdf",
+        "github": "http://github.com/erinberg24",
+        "linkedin": "https://www.linkedin.com/in/erin-berg/",
+        "description": "Erin Berg is a computer science student based in Boston aspiring to work as a software engineer in the biotech field. She is a senior at Boston College working towards a BS in Computer Science with a concentration in Bioinformatics. She likes the idea of using computers to benefit people's health. When she's not studying, she enjoys cooking, running, podcasts, traveling, backpacking, and skiing."
+    },
+    "news":[
+        {
+            "title": "Attended Hackathon",
+            "date": "Feb 8-9, 2020"
+        },
+        {
+            "title": "Began a Biological Database Implementation class at Boston University",
+            "date": "Jan 21, 2020"
+        },
+        {
+            "title": "Started new semester as a Computer Science I Teaching Assistant",
+            "date": "Jan 13, 2020"
+        },	
+        {
+            "title": "Traveling to Costa Rica",
+            "date": "Jan 3, 2020 "
+        },
+        {
+            "title": "Interned as a Software Engineer at Homesite Insurance",
+            "date": "June-August 2019"
+        },
+        {
+            "title": "Returned from a semester of studying computer engineering, as well as Chinese history, culture, and art, in Hong Kong",
+            "date": "May 2019"
+        }
+
+    ],
+    "projects":[
+        {
+            "id":"datamining",
+            "title": "Optimizing Data Mining Techniques to Improve Breast Cancer Predictions",
+            "authors": "Erin Berg, Dylan Nadeau, and Kyle Tan",
+            "source": "Elements Journal, Spring 2019.",
+            "teaser": "assets/projects/teaser.png",
+            "tags":["Journal", " Technique"],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/projects/paper.pdf"
+                }
+            ],
+            "description": "In this paper, we discuss and analyze how accurately we can predict whether a patient has breast cancer based on attributes that any woman can obtain from a routine checkup. Our aim was to identify the optimal conditions for several classification tasks and enhance the one that produced the best results. Classification tasks that were implemented included Artificial Neural Networks, Support Vector Machines, and Logistic Regression."
+            },
+            {
+                "id":"socialmedia",
+                "title": "React Instagram Clone",
+                "authors": "Erin Berg",
+                "source": " ",
+                "teaser": "assets/projects/teaser2.png",
+                "tags":["Course Project"],
+                "materials": [
+                    { 
+                        "label": "Link",
+                        "path": "https://bcwebcourse.github.io/social-media-erinberg24/"
+                    },
+                    {
+                        "label": "Link",
+                        "path": "https://github.com/erinberg24/socialmedia"
+                    }
+                ],
+                "description": "This is a clone of Instagram that I created using React and Firebase. This project taught me to use React router and hooks. "
+                },   
+                {
+                    "id":"biodb",
+                    "title": "ApoER2 Exon Database",
+                    "authors": "Erin Berg, Cory Williams, Michiel Smit, Dhanatt Hortanachai",
+                    "source": " ",
+                    "teaser": "assets/projects/teaserbiodb.png",
+                    "tags":["Course Project"],
+                    "materials": [
+                        { 
+                            "label": "Link",
+                            "path": "https://bioed.bu.edu/cgi-bin/students_20/groupG/homepage.py"
+                        },
+                        {
+                            "label": "Github",
+                            "path": "https://github.com/erinberg24/ApoER2Exon19Database"
+                        }
+                    ],
+                    "description": "Coming Soon"
+                    },            
+        {
+            "id":"interactivegame",
+            "title": "ListMaker Interactive Game",
+            "authors": "Erin Berg, Matthieu Tapolsky, Charlie Utsch",
+            "source": " ",
+            "teaser": "assets/projects/teaser2.png",
+            "tags":["Course Project", " Game"],
+            "materials": [
+                { 
+                    "label": "Presentation",
+                    "path": "assets/projects/pres.pptx"
+                },
+                {
+                    "label": "Github",
+                    "path": "https://github.com/utschc/FinalAlgs"
+                }
+            ],
+            "description": "ListMaker is an interactive game to teach students about linked lists. We used HTML, CSS, and Javascript to create both a website and the game that will give students a broader understanding of linked lists and their applications."
+            },   
+        {
+            "id":"nlp",
+            "title": "2012 NFL Season: Sentiment Analysis of Game Outcomes and Predicting Wins Using Fans’ Tweets",
+            "authors": "Erin Berg, Keith Carroll, Courtney Peterson, and John Whalen",
+            "source": " ",
+            "teaser": "assets/projects/teaser3.png",
+            "tags":["Course Project", " Technique"],
+            "materials": [
+                { 
+                    "label": "Poster",
+                    "path": "assets/projects/poster.pdf"
+                }
+            ],
+            "description": "The goals of this project were to find connection between fan sentiment and the football game outcome as well as predict who ended up winning based on tweets after a game. We used post-game tweets from the 2012 NFL season, analyzed, and classified them to obtain our results."
+            }     
+    ]
+}
