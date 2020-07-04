@@ -6,11 +6,11 @@ export default function Projects(projects){
         <h1 class="title">Projects</h1>
         <div class="filter" style="text-align: center;">
           <label><input type="radio" name="filter" class="filter" value="all" checked> All  </label>
-          <label><input type="radio" name="filter" class="filter" value="class"> Journal  </label>
-          <label><input type="radio" name="filter" class="filter" value="project"> Technique  </label>
-          <label><input type="radio" name="filter" class="filter" value="study"> Game  </label>
-          <label><input type="radio" name="filter" class="filter" value="personal"> Course Project  </label>
-          <label><input type="radio" name="filter" class="filter" value="personal"> Web Application  </label>
+          <label><input type="radio" name="filter" class="filter" value="Journal"> Journal  </label>
+          <label><input type="radio" name="filter" class="filter" value="Technique"> Technique  </label>
+          <label><input type="radio" name="filter" class="filter" value="Game"> Game  </label>
+          <label><input type="radio" name="filter" class="filter" value="Project"> Course Project  </label>
+          <label><input type="radio" name="filter" class="filter" value="Web App"> Web Application  </label>
         </div><br>
         <div class="project-list">
             ${renderProjectItems(projects)}
