@@ -78,14 +78,14 @@
                         "materials": [
                             { 
                                 "label": "Link",
-                                "path": "https://bcwebcourse.github.io/social-media-erinberg24/"
+                                "path": "https://erinberg24.github.io/socialmedia/"
                             },
                             {
                                 "label": "Link",
                                 "path": "https://github.com/erinberg24/socialmedia"
                             }
                         ],
-                        "description": "This is a clone of Instagram that I created using React and Firebase. This project taught me to use React context, router and hooks.<br><a href='https://bcwebcourse.github.io/social-media-erinberg24/'>Link</a><br><a href='https://github.com/erinberg24/socialmedia'>Github</a> "
+                        "description": "This is a clone of Instagram that I created using React and Firebase. This project taught me to use React context, router and hooks.<br><a href='https://erinberg24.github.io/socialmedia/'>Link</a><br><a href='https://github.com/erinberg24/socialmedia'>Github</a> "
                         },              
         {
             "id":"interactivegame",
