@@ -18,9 +18,7 @@ export default function ProjectDetail(project){
               ${project.description}
             </p>
         </div>
-            <span><a href="assets/projects/poster.pdf" target="_blank">Paper</a></span>
         <div>
-  
         </div>
       </section>
     `;

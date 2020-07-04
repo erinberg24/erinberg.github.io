@@ -8,13 +8,9 @@
         "resume": "assets/resume.pdf",
         "github": "http://github.com/erinberg24",
         "linkedin": "https://www.linkedin.com/in/erin-berg/",
-        "description": "Erin Berg is a computer science student based in Boston aspiring to work as a software engineer in the biotech field. She is a senior at Boston College working towards a BS in Computer Science with a concentration in Bioinformatics. She likes the idea of using computers to benefit people's health. When she's not studying, she enjoys cooking, running, podcasts, traveling, backpacking, and skiing."
+        "description": "Erin Berg is a computer science student based in Boston aspiring to work as a software engineer in the biotech or healthcare fields. She is a senior at Boston College working towards a BS in Computer Science with a concentration in Bioinformatics. She is passionate about using computers to benefit people's health. When she's not studying, she enjoys reading, running, traveling, podcasts, cooking, backpacking, and skiing."
     },
     "news":[
-        {
-            "title": "Attended Hackathon",
-            "date": "Feb 8-9, 2020"
-        },
         {
             "title": "Began a Biological Database Implementation class at Boston University",
             "date": "Jan 21, 2020"
@@ -24,7 +20,7 @@
             "date": "Jan 13, 2020"
         },	
         {
-            "title": "Traveling to Costa Rica",
+            "title": "Traveling to Costa Rica to learn about environmental justice through the BC Arrupe Program",
             "date": "Jan 3, 2020 "
         },
         {
@@ -51,34 +47,15 @@
                     "path": "assets/projects/paper.pdf"
                 }
             ],
-            "description": "In this paper, we discuss and analyze how accurately we can predict whether a patient has breast cancer based on attributes that any woman can obtain from a routine checkup. Our aim was to identify the optimal conditions for several classification tasks and enhance the one that produced the best results. Classification tasks that were implemented included Artificial Neural Networks, Support Vector Machines, and Logistic Regression."
+            "description": "In this paper, we discuss and analyze how accurately we can predict whether a patient has breast cancer based on attributes that any woman can obtain from a routine checkup. Our aim was to identify the optimal conditions for several classification tasks and enhance the one that produced the best results. Classification tasks that were implemented included Artificial Neural Networks, Support Vector Machines, and Logistic Regression.<br><a href='assets/projects/paper.pdf'>Paper</a>"
             },
-            {
-                "id":"socialmedia",
-                "title": "React Instagram Clone",
-                "authors": "Erin Berg",
-                "source": " ",
-                "teaser": "assets/projects/teaser2.png",
-                "tags":["Course Project"],
-                "materials": [
-                    { 
-                        "label": "Link",
-                        "path": "https://bcwebcourse.github.io/social-media-erinberg24/"
-                    },
-                    {
-                        "label": "Link",
-                        "path": "https://github.com/erinberg24/socialmedia"
-                    }
-                ],
-                "description": "This is a clone of Instagram that I created using React and Firebase. This project taught me to use React router and hooks. "
-                },   
                 {
                     "id":"biodb",
                     "title": "ApoER2 Exon Database",
                     "authors": "Erin Berg, Cory Williams, Michiel Smit, Dhanatt Hortanachai",
                     "source": " ",
                     "teaser": "assets/projects/teaserbiodb.png",
-                    "tags":["Course Project"],
+                    "tags":["Course Project", "Web App"],
                     "materials": [
                         { 
                             "label": "Link",
@@ -89,8 +66,27 @@
                             "path": "https://github.com/erinberg24/ApoER2Exon19Database"
                         }
                     ],
-                    "description": "Coming Soon"
-                    },            
+                    "description": "This database application was created for Dr. Uwe Beffert's lab that studies apolipoprotein E in Alzheimer's Disease. The database allows his lab to search and visualize their research data. The application was created using Python CGI, HTML&CSS, Ajax, and an SQLite database.<br><a href='https://bioed.bu.edu/cgi-bin/students_20/groupG/homepage.py'>Link</a><br><a href='https://github.com/erinberg24/ApoER2Exon19Database'>Github</a>"
+                    }, 
+                    {
+                        "id":"socialmedia",
+                        "title": "React Instagram Clone",
+                        "authors": "Erin Berg",
+                        "source": " ",
+                        "teaser": "assets/projects/instagramteaser.png",
+                        "tags":["Course Project", "Web App"],
+                        "materials": [
+                            { 
+                                "label": "Link",
+                                "path": "https://bcwebcourse.github.io/social-media-erinberg24/"
+                            },
+                            {
+                                "label": "Link",
+                                "path": "https://github.com/erinberg24/socialmedia"
+                            }
+                        ],
+                        "description": "This is a clone of Instagram that I created using React and Firebase. This project taught me to use React context, router and hooks.<br><a href='https://bcwebcourse.github.io/social-media-erinberg24/'>Link</a><br><a href='https://github.com/erinberg24/socialmedia'>Github</a> "
+                        },              
         {
             "id":"interactivegame",
             "title": "ListMaker Interactive Game",
@@ -108,7 +104,7 @@
                     "path": "https://github.com/utschc/FinalAlgs"
                 }
             ],
-            "description": "ListMaker is an interactive game to teach students about linked lists. We used HTML, CSS, and Javascript to create both a website and the game that will give students a broader understanding of linked lists and their applications."
+            "description": "ListMaker is an interactive game to teach students about linked lists. We used HTML, CSS, and Javascript to create both a website and the game that will give students a broader understanding of linked lists and their applications.<br><a href='assets/projects/pres.pptx'>Presentation</a><br><a href='https://github.com/utschc/FinalAlgs'>Github</a> "
             },   
         {
             "id":"nlp",
@@ -123,7 +119,7 @@
                     "path": "assets/projects/poster.pdf"
                 }
             ],
-            "description": "The goals of this project were to find connection between fan sentiment and the football game outcome as well as predict who ended up winning based on tweets after a game. We used post-game tweets from the 2012 NFL season, analyzed, and classified them to obtain our results."
+            "description": "The goals of this project were to find connection between fan sentiment and the football game outcome as well as predict who ended up winning based on tweets after a game. We used post-game tweets from the 2012 NFL season, analyzed, and classified them to obtain our results. We used Bag of Words, Naive Bayes, and SVM models.<br><a href='assets/projects/poster.pdf'>Poster</a>"
             }     
     ]
 }
